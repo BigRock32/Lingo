@@ -1,0 +1,23 @@
+@import '../../../scss/variables';
+
+.startPreview {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   text-align: center;
+   align-items: center;
+   gap: 1rem;
+   width: 52rem;
+
+   &__img {
+      width: 10rem;
+      height: 10rem;
+      display: block;
+   }
+
+   &__text {
+      color: $dark-text;
+      margin-bottom: 0.7rem;
+      font-size: 1.25rem;
+   }
+}

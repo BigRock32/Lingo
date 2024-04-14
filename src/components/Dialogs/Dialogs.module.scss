@@ -1,0 +1,45 @@
+@import "../../scss/variables";
+
+.dialogs {
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.7s cubic-bezier(0, 1, 0, 1);
+
+   &._isOpen {
+      max-height: 38rem;
+   }
+
+   &__list {
+      display: flex;
+      flex-direction: column;
+      color: $white;
+      gap: 0.1rem;
+   }
+
+   &__item {
+      font-size: 1rem;
+      padding: 0.5rem 0.63rem;
+      cursor: pointer;
+      transition: all $duration ease;
+
+      &:hover {
+         background-color: $white-02;
+         border-radius: 0.5rem;
+         padding-left: 1rem;
+         padding-right: 1rem;
+         overflow: hidden;
+      }
+
+      &._current {
+         background-color: $white-02;
+         border-radius: 0.5rem;
+         padding-left: 1rem;
+         padding-right: 1rem;
+         overflow: hidden;
+      }
+
+      &__text {
+         color: inherit;
+      }
+   }
+}
