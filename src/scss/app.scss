@@ -4,4 +4,11 @@
 
 @import "components/all";
 
+body {
+   color: $black;
+   background-color: $main-background;
+}
 
+.text-color-blue {
+   color: $main-blue;
+}

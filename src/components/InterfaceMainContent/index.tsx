@@ -9,8 +9,8 @@ const InterfaceMainContent: React.FC = () => {
    return (
       <div className={s.interfaceMainContent}>
          {/* <InterfaceStartPreview /> */}
-         {/* <Chat /> */}
-         <ErrorBlock />
+         <Chat />
+         {/* <ErrorBlock /> */}
          <InterfaceDropdownBox />
       </div>
    )
