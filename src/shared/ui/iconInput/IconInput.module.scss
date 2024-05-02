@@ -1,0 +1,13 @@
+@import "../../../app/scss/variables";
+
+.wrapper {
+   position: relative;
+}
+
+.icon {
+   width: 1.25rem;
+   position: absolute;
+   top: 1rem;
+   right: 0.8rem;
+   cursor: pointer;
+}

@@ -1,0 +1,15 @@
+@import '../../../app/scss/variables';
+
+.input {
+   background-color: $main-background;
+   border: 1px #000;
+   border-radius: 0.5rem;
+   width: 100%;
+   padding: 1rem;
+   font-size: 1rem;
+}
+
+.error {
+   color: $red;
+   font-size: 0.75rem;
+}
